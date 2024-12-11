@@ -1,0 +1,25 @@
+.footer-main {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    /* background-color: #333; */
+    color: white;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(175, 130, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.right{
+    margin-right: 20px;
+}

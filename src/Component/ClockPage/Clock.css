@@ -1,0 +1,45 @@
+
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+}
+
+.clock {
+  background: radial-gradient(circle, rgba(50, 50, 50, 0.8), rgba(30, 30, 30, 0.9));
+  border-radius: 20px;
+  padding: 30px 30px;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 5rem;
+  box-shadow: 0 0 70px rgba(189, 51, 51, 0.7);
+  text-shadow: 0px 0px 25px rgba(175, 52, 52, 0.8);
+  border: 3px solid #fff; 
+  transition: all 0.3s ease-in-out;
+}
+
+.clock:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 120px rgb(177, 50, 50); 
+  cursor: pointer;
+}
+
+.clock-display {
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .clock {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .clock {
+    font-size: 4rem;
+    padding: 20px 40px;
+  }
+}

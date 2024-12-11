@@ -1,0 +1,79 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: bl;
+    color: #333;
+   
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* light mode */
+body.light-mode {
+    background-color: #ccd4dc;
+    color: #fff;
+}
+
+
+.navbar {
+    height: 50px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.navbar.dark {
+    background-color: #222;
+}
+
+.navbar.light {
+    background-color: #333;
+}
+
+.linkPart {
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    gap: 10px;
+}
+
+.linkPart a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.linkPart a:hover {
+    color: #ffb3b3;
+}
+
+button.themes {
+    font-size: 0.8rem;
+    background-color: aliceblue;
+    color: black;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.themes:hover {
+    background-color: #ddd;
+}
+
+/* Light mode specific styles */
+body.light-mode {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Dark mode specific styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}

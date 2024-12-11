@@ -1,0 +1,34 @@
+.navbar{
+    height: 30px;
+    background-color:#333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    margin: 0;
+    padding: 13px;
+  
+    
+}
+
+.linkPart {
+    display: flex;
+    font-size: 1.3rem;
+    color: aliceblue;
+    align-items: center;
+    gap: 10px;
+}
+.linkPart a{
+   
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.thaems{
+    font-size: 0.8rem;
+    background-color: aliceblue;
+    color: black;
+    padding: 5px;
+}
+
+
